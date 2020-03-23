@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:height="25dp"
+        android:width="25dp"
+        android:drawable="@drawable/exclaimation_mark" />
+
+</layer-list>
