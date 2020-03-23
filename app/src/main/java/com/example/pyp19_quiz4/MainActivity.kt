@@ -47,6 +47,10 @@ class MainActivity : AppCompatActivity() {
                 var gotError = false
 
                 // validation
+                // reset drawable in textview to null
+                editText_iteration.setCompoundDrawablesWithIntrinsicBounds(null, null, null, null)
+                editText_message.setCompoundDrawablesWithIntrinsicBounds(null, null, null, null)
+                editText_salt.setCompoundDrawablesWithIntrinsicBounds(null, null, null, null)
                 if(iterationStr.isEmpty()){
                     editText_iteration.setHint("huat number here...")
                     editText_iteration.setCompoundDrawablesWithIntrinsicBounds(null, null, // left and top of textview
